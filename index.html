@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SINK TINTA STUDIO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>SINK TINTA STUDIO</h1>
+    <p>Diseños personalizados, pasión por el black art e Irezumi en La Habana.</p>
+  </header>
+
+  <section id="portfolio">
+    <h2>Portafolio</h2>
+    <p>Aquí irán tus fotos. Puedes subirlas y mostrarlas.</p>
+  </section>
+
+  <section id="calculator">
+    <h2>Calculadora de precio</h2>
+    <form id="tattooForm">
+      <label>Tamaño:
+        <select id="size">
+          <option value="50">Pequeño</option>
+          <option value="100">Mediano</option>
+          <option value="150">Grande</option>
+        </select>
+      </label><br>
+
+      <label>Zona del cuerpo:
+        <select id="zone">
+          <option value="1">Brazo</option>
+          <option value="1.2">Espalda</option>
+          <option value="1.3">Pecho</option>
+          <option value="1.5">Pierna</option>
+        </select>
+      </label><br>
+
+      <label>Estilo:
+        <select id="style">
+          <option value="1">Black Art</option>
+          <option value="1.3">Irezumi</option>
+          <option value="1.1">Minimalista</option>
+        </select>
+      </label><br>
+
+      <button type="button" onclick="calculatePrice()">Calcular Precio</button>
+    </form>
+    <p id="result"></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>Reserva tu cita vía WhatsApp: <a href="https://wa.me/5350000000" target="_blank">Enviar mensaje</a></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
